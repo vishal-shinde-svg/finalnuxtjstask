@@ -14,9 +14,9 @@
     </nav>
     <div class="mt-3">
       <h6 align="center">Please choose items to your bucket</h6>
-      <div class="grid grid-cols-3 gap-5 mt-14">
+      <div class=" mb-9 grid grid-cols-3 gap-5 mt-14">
         <div
-          class="p-6 max-w-sm bg-red-500 rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700"
+          class="p-6 max-w-sm bg-red-500 rounded-lg border border-gray-200 shadow-md  dark:border-gray-900"
         >
           <div
             class="apple mb-2 text-2xl text-center font-bold tracking-tight text-gray-900 dark:text-white"
@@ -41,7 +41,7 @@
           </div>
         </div>
         <div
-          class="p-6 max-w-sm bg-yellow-500 rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700"
+          class="p-6 max-w-sm bg-yellow-500 rounded-lg border border-gray-200 shadow-md  dark:border-gray-900"
         >
           <div
             class="orange mb-2 text-2xl text-center font-bold tracking-tight text-gray-900 dark:text-white"
@@ -66,7 +66,7 @@
           </div>
         </div>
         <div
-          class="p-6 max-w-sm bg-blue-800 rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700"
+          class="p-6 max-w-sm bg-blue-800 rounded-lg border border-gray-200 shadow-md  dark:border-gray-900"
         >
           <div
             class="grapes mb-2 text-2xl text-center font-bold tracking-tight text-gray-900 dark:text-white"
@@ -96,14 +96,14 @@
       class="flex justify-center items-center border-solid border-2 border-indigo-600 bg-white"
     >
       <div class="flex-1 max-w-2xl p-10 border border-spacing-4">
-        <h2 class="text-center p-10 font-bold bg-orange-500 w-full">Welcome to Basket Stack..!</h2>
+        <h2 class="text-center p-4 font-bold bg-gray-300 w-full">Welcome to Basket Stack..!</h2>
         <div>
           <h3 v-if="show" class="text-center">No Selected items</h3>
           <div v-else>
             <center>
-            <table class="w-64 items-center justify-center border-black">
+            <table class="w-64 items-center  justify-center border-black">
               <tr
-                class=" border-black rounded-full text-center w-10"
+                class=" border-black rounded-full h-14 text-center w-10"
                 v-for="(fruitbasket, index) in fruitbasket.slice().reverse()"
                 :key="index"
               >
