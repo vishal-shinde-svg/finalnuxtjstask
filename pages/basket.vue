@@ -13,7 +13,7 @@
       </div>
     </nav>
     <div class="mt-3">
-      <h6 align="center">Please choose items to your bucket</h6>
+      <h6 align="center">Please select item in your bucket</h6>
       <div class=" mb-9 grid grid-cols-3 gap-5 mt-14">
         <div
           class="p-6 max-w-sm bg-red-500 rounded-lg border border-gray-200 shadow-md  dark:border-gray-900"
