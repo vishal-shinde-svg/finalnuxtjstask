@@ -28,12 +28,12 @@
           </div>
           <div class="flex flex-1 justify-center">
             <button
-              @click="per? addApple() : al()"
+              @click="per? addApple() : user1()"
               class="py-2 px-4 rounded-full h-14 w-14 bg-white text-black mx-1"
             >
               +</button
             ><button
-              @click="per? removeApple() : al()"
+              @click="per? removeApple() : user1()"
               class="py-2 px-4 rounded-full h-14 w-14 bg-white text-black mx-1"
             >
               -
@@ -53,12 +53,12 @@
           </div>
           <div class="flex flex-1 justify-center">
             <button
-              @click="per? addOrange() : al()"
+              @click="per? addOrange() : user1()"
               class="py-2 px-4 rounded-full h-14 w-14 bg-white text-black mx-1"
             >
               +</button
             ><button
-              @click="per? removeOrange() : al2()"
+              @click="per? removeOrange() : user2()"
               class="py-2 px-4 rounded-full h-14 w-14 bg-white text-black mx-1"
             >
               -
@@ -78,12 +78,12 @@
           </div>
           <div class="flex flex-1 justify-center">
             <button
-              @click="per? addGrapes() : al()"
+              @click="per? addGrapes() : user1()"
               class="py-2 px-4 rounded-full h-14 w-14 bg-white text-black mx-1"
             >
               +</button
             ><button
-               @click="per? removeGrapes() : al2()"
+               @click="per? removeGrapes() : user2()"
               class="py-2 px-4 rounded-full h-14 w-14 bg-white text-black mx-1"
             >
               -
@@ -142,7 +142,7 @@ export default {
         Orange: "orange",
         Grapes: "grapes",
       },
-      show: true,
+      flag: true,
       per:false,
     };
   },
@@ -161,7 +161,7 @@ export default {
       if (this.apple.count > 0) {
         this.apple.count = this.apple.count === 0 ? 0 : this.apple.count - 1;
         this.fruitbasket.push(this.apple.name);
-        this.show = false;
+        this.flag = false;
       } else {
         alert("Sorry..! No Enough Items Present..!");
       }
@@ -209,7 +209,7 @@ export default {
         alert("Sorry..! You Have Selected Invalid Item...! ");
       }
     },
-    al(){
+    user1(){
         alert("Sorry...! , You Don't Have Access..!")
     },
   },
