@@ -1,0 +1,17 @@
+{
+  "user": [
+    {
+      "username": "Admin",
+      "permission": "all",
+      "password": "Admin"
+
+    
+    },
+    {
+      "username": "MyName",
+      "permission":"none",
+      "password": "MyName"
+    
+    }
+  ]
+}
