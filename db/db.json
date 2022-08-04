@@ -4,14 +4,15 @@
       "username": "Admin",
       "permission": "all",
       "password": "Admin"
-
-    
     },
     {
       "username": "MyName",
-      "permission":"none",
+      "permission": "none",
       "password": "MyName"
-    
     }
+    // {
+    //   "username": "",
+    //   "password": ""
+    // }
   ]
 }
